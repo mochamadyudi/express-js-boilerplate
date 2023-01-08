@@ -19,7 +19,8 @@ module.exports = {
                 root: ["."],
                 extensions: [".js"],
                 alias: {
-                    "@yid/config": "./src/config/index"
+                    "@yid/config": "./src/config/index",
+                    "@yid/helpers": "./src/lib/helper/index"
                 },
             },
         ],

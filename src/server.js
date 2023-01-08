@@ -9,22 +9,16 @@ const app = express();
     if(Array.isArray(process.argv) && process.argv.filter((item)=> item === '--init').length > 0 ){
         await require('../app/init');
     }
-    // if(process.argv[1]){
-    //
-    // }
+
+    await require('./lib/helper/index');
 
     /**
      * @title - pattern express
      */
     await require('./lib/express').default(app);
 
-    /**
-     * @title - api
-     */
-    // await require('./api').default(app)
+    await require('./routes').default(app)
 
-
-    await require('./lib/express/client').default(app)
 
     /**
      * @title - handler
@@ -34,7 +28,7 @@ const app = express();
     /**
      * @name Database-Connected
      */
-    // await require('./lib/database/index')
+    await require('./lib/database/index')
 
     /**
      * STATIC

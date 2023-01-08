@@ -8,7 +8,7 @@ export default {
     },
     log: process.env.APP_LOGGING ?? false,
     path: {
-        disabled:'/:url(api|config|lib|views)'
+        disabled:'/:url(api|config|lib|views|default)'
     },
     oAuth: {
         local: {

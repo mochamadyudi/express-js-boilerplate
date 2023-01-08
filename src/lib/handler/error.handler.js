@@ -1,7 +1,7 @@
 import { first } from 'lodash'
 import { isCelebrateError } from 'celebrate'
 
-const ErrorHandler = async (err, req, res, next) => {
+let ErrorHandler = async (err, req, res, next) => {
   const { status } = err
   const msg = err?.message ?? null
   if (typeof (msg) === 'string') {
@@ -35,5 +35,4 @@ const ErrorHandler = async (err, req, res, next) => {
   delete errObj.status
   return res.json(errObj)
 }
-
 export default ErrorHandler

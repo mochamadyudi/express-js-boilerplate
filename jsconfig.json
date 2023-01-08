@@ -4,7 +4,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "paths": {
-      "@yid/config": ["./src/config/index"]
+      "@yid/config": ["./src/config/index"],
+      "@yid/helpers": ["./src/lib/helper/index"]
     }
   },
   "exclude": ["node_modules"]
