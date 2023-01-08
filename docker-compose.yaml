@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  stg:
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=development
+    image: feskripsi:${TAG}
+    container_name: skripsi_client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+  prod:
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+    image: feskripsi:${TAG}-production
+    container_name: skripsi_client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+  dev:
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=development
+    image: feskripsi:${TAG}-development
+    container_name: skripsi_client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"

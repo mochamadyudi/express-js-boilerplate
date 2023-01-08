@@ -1,0 +1,2 @@
+(this.webpackJsonpemilus=this.webpackJsonpemilus||[]).push([[77],{615:function(e,t,n){"use strict";n.r(t);n(0);var i=n(21),c=n(2),s=function(e){return Object(c.jsx)("div",{children:Object(c.jsx)("h1",{children:"Villa Recomendation"})})};s.defaultProps={},t.default=Object(i.b)((function(){return{}}),{})(s)}}]);
+//# sourceMappingURL=77.61ebf428.chunk.js.map

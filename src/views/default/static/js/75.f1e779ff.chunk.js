@@ -1,0 +1,2 @@
+(this.webpackJsonpemilus=this.webpackJsonpemilus||[]).push([[75],{618:function(e,t,n){"use strict";n.r(t);var c=n(0),i=n.n(c),s=n(21),r=n(2),u=function(e){return Object(r.jsx)("div",{children:Object(r.jsx)("h1",{children:"Create Ticket"})})};u.defaultProps={},t.default=Object(s.b)((function(){return{}}),{})(i.a.memo(u))}}]);
+//# sourceMappingURL=75.f1e779ff.chunk.js.map

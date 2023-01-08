@@ -1,0 +1,2 @@
+(this.webpackJsonpemilus=this.webpackJsonpemilus||[]).push([[65],{622:function(e,s,t){"use strict";t.r(s);var n=t(0),i=t.n(n),c=t(21),u=t(2),o=function(e){return Object(u.jsx)("div",{className:"w-full",children:Object(u.jsx)("h1",{children:"Booking Rooms Detail"})})};o.defaultProps={},s.default=Object(c.b)((function(){return{}}),{})(i.a.memo(o))}}]);
+//# sourceMappingURL=65.c1928b4d.chunk.js.map

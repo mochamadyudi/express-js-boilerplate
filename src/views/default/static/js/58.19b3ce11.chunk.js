@@ -1,0 +1,2 @@
+(this.webpackJsonpemilus=this.webpackJsonpemilus||[]).push([[58],{627:function(e,n,s){"use strict";s.r(n);var t=s(0),c=s.n(t),u=s(21),i=s(2),l=function(e){return Object(i.jsx)("div",{className:"w-full",children:Object(i.jsx)("h1",{children:"Booking Schedule"})})};l.defaultProps={},n.default=Object(u.b)((function(){return{}}),{})(c.a.memo(l))}}]);
+//# sourceMappingURL=58.19b3ce11.chunk.js.map
